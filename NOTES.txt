@@ -1,2 +1,25 @@
 New login modal
 https://www.loginradius.com/blog/engineering/guest-post/modern-login-signup-form-tailwindcss-react/
+
+SIDEBAR
+Create
+    > Page links (icons) that are working
+    > 
+
+Style
+    > remove the left padding that is beneath the SIDEBAR
+    > Choose another colour pattern
+    
+
+
+
+LOGIN PAGE
+Create
+    > Authentication (Google)
+    > Add forget password
+    > Create account link and form
+
+Style
+    > Login fields - text size
+    > Login modal color
+    > Possible style: https://colorlib.com/wp/html5-and-css3-login-forms/ --> Login Form 6, 8, 10, 19

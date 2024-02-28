@@ -26,7 +26,6 @@ const App = () => {
   return (
      <Router>
       <div className="app">
-      <Header />
 
         <Switch>
           <Route path="/" exact>
@@ -42,9 +41,6 @@ const App = () => {
             <Page3 />
           </Route>
         </Switch>
-
-        <Footer />
-
       </div>
     </Router>
   );
