@@ -1,5 +1,6 @@
 import React, { useState } from 'react';
 import Sidebar from './Sidebar';
+import Footer from './Footer';
 
 const Page1 = () => {
   const [isExpanded, setIsExpanded] = useState(true); // State to control sidebar visibility
@@ -21,6 +22,12 @@ const Page1 = () => {
         .dfkgjlkjdfghdlfkjgh
         .dfkgjlkjdfghdlfkjgh.dfkgjlkjdfghdlfkjgh.dfkgjlkjdfghdlfkjgh.dfkgjlkjdfghdlfkjgh.dfkgjlkjdfghdlfkjgh.dfkgjlkjdfghdlfkjgh.dfkgjlkjdfghdlfkjgh
         .dfkgjlkjdfghdlfkjgh.dfkgjlkjdfghdlfkjgh.dfkgjlkjdfghdlfkjgh.dfkgjlkjdfghdlfkjgh.dfkgjlkjdfghdlfkjgh.dfkgjlkjdfghdlfkjgh.dfkgjlkjdfghdlfkjgh
+
+      
+      <h1> Loading bar</h1>
+      
+
+
       </div>
     </div>
   </div>
@@ -29,7 +36,7 @@ const Page1 = () => {
 
 
       </div>
-
+    <Footer/>
     </div>
   );
 };

@@ -29,3 +29,18 @@ footer{
 a{
  color: black; 
 }
+li, ul{
+  color:black
+}
+
+span{
+  color:black
+}
+
+
+footer{
+  position:fixed;
+  bottom:0;
+  left:0;
+  right:0;
+}

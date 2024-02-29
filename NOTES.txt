@@ -23,3 +23,10 @@ Style
     > Login fields - text size
     > Login modal color
     > Possible style: https://colorlib.com/wp/html5-and-css3-login-forms/ --> Login Form 6, 8, 10, 19
+
+    > Date time: make it responsible. Maybe wrap it further on a component
+    > Add a header, similar to footer but higher
+
+OTHERS
+Install: npm install moment
+
