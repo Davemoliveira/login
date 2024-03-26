@@ -26,7 +26,7 @@ const CLI = () => {
 
       <Card>
   <CardBody>
-    <p className="mb-4 font-semibold text-gray-600 dark:text-gray-600 text-center">CLIENT TERMINAL</p>
+   <p className="mb-4 text-3xl font-semibold text-center text-gray-600 dark:text-gray-600">CLIENT TERMINAL</p>
     <p className="text-gray-600 dark:text-gray-500">
       Lorem ipsum dolor sit, amet consectetur adipisicing elit. Fuga, cum commodi a omnis numquam
       quod? Totam exercitationem quos hic ipsam at qui cum numquam, sed amet ratione! Ratione, nihil

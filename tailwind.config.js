@@ -6,6 +6,7 @@ module.exports = windmill({
   },
   variants: {},
   plugins: [],
+  darkMode: 'selector',
 })
 
 

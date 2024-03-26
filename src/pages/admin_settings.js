@@ -5,8 +5,8 @@ import DarkModeToggle from '../components/DarkModeToggle'; // Adjust the path as
 import FontSizeIncreaser from '../components/FontSizeIncreaser'; // Adjust the path as needed
 import ToggleButton from '../components/ToggleButton';
 import TwoColumnGrid from '../components/TwoColumnGrid';
+import Columns3 from '../components/Columns3';
 import { Card, CardBody } from '@windmill/react-ui'
-
 const Admin_settings = () => {
   const [isExpanded, setIsExpanded] = useState(true); // State to control sidebar visibility
 
@@ -26,11 +26,21 @@ const Admin_settings = () => {
 
       <Card>
   <CardBody>
-    <p className="mb-4 font-semibold text-gray-600 dark:text-gray-600 text-center">SETTINGS</p>
+    <p className="mb-4 text-3xl font-semibold text-center text-gray-600 dark:text-gray-600">SETTINGS</p>
     <p className="text-gray-600 dark:text-gray-500">
-      Lorem ipsum dolor sit, amet consectetur adipisicing elit. Fuga, cum commodi a omnis numquam
-      quod? Totam exercitationem quos hic ipsam at qui cum numquam, sed amet ratione! Ratione, nihil
-      dolorum. asdas
+
+    <p>
+    <p>
+
+    </p>
+
+    <div>
+      asdasda
+    </div>
+
+    </p>
+    <DarkModeToggle class="bg-white hover:bg-gray-100 text-gray-800 font-semibold py-2 px-4 border border-gray-400 rounded shadow"/>
+     
     </p>
     <hr></hr>
     <br></br>

@@ -16,10 +16,9 @@ import Cli  from './pages/cli';
 import Users from './pages/users';
 import Companies from './pages/companies';
 import Admin_settings from './pages/admin_settings';
-
-
 import HomePage from './HomePage';
 import Page2 from './components/Page2';
+
 import { Windmill } from '@windmill/react-ui'
 import { Settings } from 'lucide-react';
 
@@ -52,6 +51,10 @@ const App = () => {
           <Route path="/Companies"> <Companies /> </Route>
           <Route path="/Admin_settings"> <Admin_settings /> </Route>
         </Switch>
+
+
+
+
       </div>
     </Router>
   );

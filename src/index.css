@@ -1,7 +1,9 @@
+/* Tailwind */
 @tailwind base;
 @tailwind components;
 @tailwind utilities;
 
+/* Default values */
 *{
   font-family: 'Montserrat', sans-serif;
   font-optical-sizing: auto;
@@ -10,50 +12,25 @@
   font-size: 14px;
 }
 
-
 body{
   background: bg-gradient-to-r from-slate-300 to-slate-500;
 }
 
-
-/* Rule to enable dark mode - Still testing*/ 
-body.dark .slide-in{
-  background: bg-gradient-to-r from-slate-300 to-slate-500;
-  background:blue;
-}
-
-
-
-li{
-  color:white;
-}
-
+/* Footer */
 footer{
   background: bg-gradient-to-r from-slate-900 to-slate-700;
   color: white;
   padding: 1rem;
   text-align: center;
-}
-
-a{
- color: black; 
-}
-li, ul{
-  color:black
-}
-
-span{
-  color:black
-}
-
-
-footer{
   position:fixed;
   bottom:0;
   left:0;
   right:0;
 }
 
+a, li, ul, span{
+ color: black; 
+}
 
 /* Slide animation for main content */
 .slide-in {
@@ -72,35 +49,14 @@ footer{
   }
 }
 
-
-
-
-
-
-
-
-/* Toggle button */
-.toggle-button {
-  padding: 10px 20px;
-  background-color: #ddd;
-  border: none;
-  cursor: pointer;
-  font-size: 16px;
-  transition: background-color 0.3s ease;
+/* Dark Color scheme */
+.dark-mode {
+  background-color: #082f49;
+  text-decoration: aquamarine;
 }
 
-.toggle-button.on {
-  background-color: black;
-  color: white;
+/* Additional styles for elements in dark mode */
+.dark-mode h1, mb-4, bg-white rounded-md shadow-md.p {
+  color: #ffffff; /* Example: White text color for headings */
 }
 
-.toggle-button.off {
-  background-color: bg-gray-50;
-  color: white;
-}
-
-
-
-
-
-/* Settings Columns  */

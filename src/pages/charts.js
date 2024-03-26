@@ -6,7 +6,7 @@ import FontSizeIncreaser from '../components/FontSizeIncreaser'; // Adjust the p
 import ToggleButton from '../components/ToggleButton';
 import TwoColumnGrid from '../components/TwoColumnGrid';
 import { Card, CardBody } from '@windmill/react-ui'
-
+import Chart from '../components/Chart';
 const Charts = () => {
   const [isExpanded, setIsExpanded] = useState(true); // State to control sidebar visibility
 
@@ -26,12 +26,20 @@ const Charts = () => {
 
       <Card>
   <CardBody>
-    <p className="mb-4 font-semibold text-gray-600 dark:text-gray-600 text-center">CHARTS</p>
+  <p className="mb-4 text-3xl font-semibold text-center text-gray-600 dark:text-gray-600">CHARTS</p>
     <p className="text-gray-600 dark:text-gray-500">
       Lorem ipsum dolor sit, amet consectetur adipisicing elit. Fuga, cum commodi a omnis numquam
       quod? Totam exercitationem quos hic ipsam at qui cum numquam, sed amet ratione! Ratione, nihil
       dolorum. asdas
     </p>
+
+
+ 
+      <Chart />
+
+
+
+    
     <hr></hr>
     <br></br>
   </CardBody>
